@@ -1,0 +1,72 @@
+html, body {
+    padding: 0;
+    font-family: Karla;
+    font-family: 'Maitree', serif;
+    background: #cef5a4;
+}
+
+#main-container {
+    /* 
+        Vertically Stack 
+        & Horizontally Center contents
+    */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#equation-field {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Maitree', serif;
+    background-color: #c3f7c9;
+    outline: none;
+    margin: 0.5rem;
+    border-radius: 0.7rem;
+    width: 10rem;
+}
+
+#solve-button {
+    border: none;
+    background-color: #4CAF50;
+    font-size: 2rem;
+    font-family: 'Maitree', serif;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: black;
+    padding: 0.3rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5rem;
+    width: 10rem;
+    outline: none;
+    border-radius: 2em;
+    border: solid 1px grey;
+    transition: background-color 0.75s, font-size 0.75s;
+}
+#solve-button:hover {
+    background-color: #89f596;
+    font-size: 2.2rem;
+}
+
+#solution-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#solution-display > .equation-component {
+    background-color: #008CBA;
+    min-width: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0.1rem 1rem;
+    margin: 5px;
+    border: solid 1.5px grey;
+    border-radius: 1em;
+}
