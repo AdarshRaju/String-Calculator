@@ -49,11 +49,11 @@ for (let i=0; i < arr.length; i++) {
 }
 for (let i=0; i < arr.length; i++) {
     if (i % 2 == 0) {
-       cont[i].style.background = 'green' 
+       cont[i].style.background = '#db7509' 
        cont[i].innerHTML = arr[i]
     }
     else if (i % 2 != 0){
-        cont[i].style.background = '#31a340'
+        cont[i].style.background = '#c4a07a'
         cont[i].innerHTML = arr[i]
     }
 }
