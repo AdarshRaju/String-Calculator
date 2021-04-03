@@ -11,6 +11,7 @@ html, body {
         & Horizontally Center contents
     */
     display: flex;
+    margin-top: 15%;
     flex-direction: column;
     align-content: center;
     justify-content: center;
