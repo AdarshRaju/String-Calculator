@@ -42,6 +42,7 @@ html, body {
     cursor: pointer;
     display: inline-block;
     margin: 0.5rem;
+    margin-top: 2.5%;
     outline: none;
     border-radius: 2em;
     border: solid 1px grey;
