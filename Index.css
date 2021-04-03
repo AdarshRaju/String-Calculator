@@ -42,7 +42,6 @@ html, body {
     cursor: pointer;
     display: inline-block;
     margin: 0.5rem;
-    width: 10rem;
     outline: none;
     border-radius: 2em;
     border: solid 1px grey;
